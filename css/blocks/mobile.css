@@ -1,0 +1,129 @@
+@media (max-width: 768px) {
+    .header-img {
+        margin: 0 auto;
+    }
+
+    .section-groups-grid {
+        margin-left: 32px; 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 74px 100px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .header-logo {
+        margin-bottom: 20px;
+    }
+
+    .header-row {
+        display: block;
+        text-align: center;
+    }
+
+    .header-list {
+        margin: 0 auto;
+        width: 400px;
+        gap: 30px;
+    }
+
+    .section-groups-grid {
+        margin-left: 1px; 
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .header-list {
+        display: block;
+        width: 295px;
+    }
+
+    li {
+        margin-bottom: 20px;
+    } 
+
+    .section-title {
+        font-size: 72px;
+    }
+
+    .section-trainers-grid {
+        grid-template-columns: repeat(2, 1fr);
+     }
+ 
+     .section-groups-grid {
+         margin-left: 52px;
+         grid-template-columns: repeat(1, 1fr);
+         
+     }
+
+     .button {
+        width: 290px;
+        margin-left: 50px;
+    }
+
+    .footer-socials {
+        margin-left: 68px;
+    }
+
+    .footer-contacts {
+        display: inline-block;
+        text-align: center;
+        margin-left: 70px;
+    }
+
+}
+
+@media (max-width: 395px) {
+    .button {
+      margin-left: 38px;
+    }
+
+    .section-groups-grid {
+        margin-left: 47px;
+    }
+
+    .footer-socials {
+        margin-left: 57px;
+    }
+
+    .footer-contacts {
+       margin-left: 66px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .header-logo {
+        margin-bottom: 18px;
+    }
+
+   .section-title {
+        font-size: 54px;
+    }
+
+    .section-groups-grid {
+        margin-left: 30px;
+    }
+
+    .button {
+        width: 290px;
+        margin-left: 22px;
+    }
+
+    .footer-socials {
+        margin-left: 46px;
+    }
+
+    .footer-contacts {
+        display: inline-block;
+        text-align: center;
+        margin-left: 50px;
+    }
+}
+ 
+
+
+
+
